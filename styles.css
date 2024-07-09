@@ -362,6 +362,98 @@
 /* End of My Current Target Styles. */
 
 
+
+/* Start of My Next Target Styles. */
+.next-target-section {
+    width: 1140px;
+    height: 871px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 110px;
+}
+
+.next-target-heading {
+    text-align: center;
+}
+
+.next-target-heading h1 {
+    margin-top: 5px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.next-target-heading p {
+    padding-top: 26px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+}
+
+
+.reactJS,
+.nodeJS,
+.mongoBD {
+    width: 1140px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.reactJS {
+    margin-top: 50px;
+}
+
+.reactJS img {
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.nodeJS img {
+    width: 143.3px;
+    height: 87.75px;
+}
+
+.mongoBD img {
+    width: 108px;
+    height: 108px;
+}
+
+.nodeJS,
+.mongoBD {
+    margin-top: 24px;
+}
+
+.reactJS-details h1,
+.nodeJS-details h1,
+.mongoBD-details h1 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.reactJS-details p,
+.nodeJS-details p,
+.mongoBD-details p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.next-target-details a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* End of My Next Target Section. */
+
+
+
 /* Start of Support Styles. */
 .support-section {
     width: 1140px;
