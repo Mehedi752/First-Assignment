@@ -102,6 +102,146 @@
     border-radius: 8px;
     padding: 21px 24px;
 }
+
 /* End of Banner Design Styles. */
 
 
+/* Why Web Development Styles. */
+.why-web-development-section {
+    width: 1140px;
+    height: 1395px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-development-container {
+    padding: 50px 67px;
+    background-image: linear-gradient(rgb(255, 255, 255),
+            rgba(255, 255, 255, 0));
+}
+
+.why-web-development-title {
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.why-web-development-description {
+    color: rgb(13, 19, 33);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 0px;
+}
+
+.development-banner-first {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 20px;
+}
+
+.banner-first-description {
+    width: 576px;
+}
+
+.banner-first-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.banner-first-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+
+.learn-more-button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+.development-banner-first img {
+    padding-left: 30px;
+}
+
+.development-banner-first {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 18px;
+}
+
+.development-banner-second {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 18px;
+}
+
+.banner-second-description {
+    width: 576px;
+}
+
+.banner-second-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.banner-second-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+
+.development-banner-second img {
+    padding-right: 30px;
+}
+
+.development-banner-third {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.banner-third-description {
+    width: 576px;
+}
+
+.banner-third-description h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.banner-third-description p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+
+.development-banner-thrid img {
+    padding-left: 30px;
+}
+/* End of Why Web Development Styles. */
