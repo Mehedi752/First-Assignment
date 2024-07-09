@@ -11,7 +11,7 @@
 .banner-heading {
     width: 1440px;
     height: 110px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@
 .banner-design {
     max-width: 1440px;
     height: 652px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     background-image: url(./assets/Hero-bg.png);
     text-align: center;
@@ -110,7 +110,7 @@
 .why-web-development-section {
     width: 1140px;
     height: 1395px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 74px;
     border-radius: 16px;
@@ -253,7 +253,7 @@
 .my-inspiration-section {
     width: 1140px;
     height: 777px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 88px;
 }
@@ -300,7 +300,7 @@
 .my-current-target-section {
     width: 1140px;
     height: 463px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 0 auto;
     margin-top: 145px;
 }
@@ -358,4 +358,87 @@
     font-size: 16px;
     font-weight: 700;
 }
+
 /* End of My Current Target Styles. */
+
+
+/* Start of Support Styles. */
+.support-section {
+    width: 1140px;
+    height: 314px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 41px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(./assets/handshake.jpg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: 1140px 314px;
+}
+
+.support-container {
+    text-align: center;
+    padding: 64px 48px;
+}
+
+.support-container h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-container p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+input[type=text] {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 10px 15px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input[type="button"] {
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* End of Support Styles. */
+
+
+
+/* Start of Footer-Final Styles. */
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+.footer-section {
+    width: 1440px;
+    height: 100px;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    margin-top: 78px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Start of Footer-Final Styles. */
