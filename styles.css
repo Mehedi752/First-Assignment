@@ -7,7 +7,7 @@
     font-style: normal;
 }
 
-/* Banner Heading Styles. */
+/* Start of Banner Heading Styles. */
 .banner-heading {
     width: 1440px;
     height: 110px;
@@ -106,7 +106,7 @@
 /* End of Banner Design Styles. */
 
 
-/* Why Web Development Styles. */
+/* Start of Why Web Development Styles. */
 .why-web-development-section {
     width: 1140px;
     height: 1395px;
@@ -290,6 +290,72 @@
     height: 550px;
     padding: 32px;
 }
+
 /* End of My Inspiration Styles. */
 
 
+
+
+/* Start of My Current Target Styles. */
+.my-current-target-section {
+    width: 1140px;
+    height: 463px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 145px;
+}
+
+.current-target-heading {
+    text-align: center;
+
+}
+
+.current-target-heading h1 {
+    margin-top: 0px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.current-target-heading p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.current-target-details {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.html,
+.css,
+.javascript {
+    padding: 40px;
+}
+
+.html {
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.javascript {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.current-target-details a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* End of My Current Target Styles. */
